@@ -29,11 +29,23 @@
     ]
   },
   "dependencies": {
+    "ag-grid": "^13.3.1",
+    "ag-grid-react": "^13.3.0",
     "cross-env": "5.1.0",
+    "lodash": "^4.17.4",
+    "normalizr": "^3.2.4",
+    "prop-types": "^15.6.0",
     "react": "16.0.0",
     "react-dom": "16.0.0",
+    "react-dom-factories": "^1.0.2",
     "react-hot-loader": "3.1.1",
-    "react-router-dom": "4.2.0"
+    "react-redux": "^5.0.6",
+    "react-router-dom": "4.2.0",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1",
+    "seamless-immutable": "^7.1.2"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
@@ -46,7 +58,7 @@
     "babel-preset-react-hmre": "1.1.1",
     "babel-preset-stage-2": "6.24.1",
     "copy-webpack-plugin": "4.1.1",
-    "css-loader": "0.28.7",
+    "css-loader": "^0.28.7",
     "enzyme": "3.1.0",
     "enzyme-adapter-react-16": "1.0.1",
     "eslint": "3.19.0",
